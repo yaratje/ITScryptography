@@ -1,4 +1,4 @@
-from main import calculate_normalized_probs
+from caesar_cipher import calculate_normalized_probs
 import numpy as np
 import matplotlib.pyplot as plt
 

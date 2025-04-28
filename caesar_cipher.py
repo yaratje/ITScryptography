@@ -6,7 +6,6 @@ import math
 text = "CREAS"
 # text = "CZGGJOOCDNODNOVIOZSVHKGZ"
 
-
 def calculate_normalized_probs(text):
     #unigram up to 5-gram
     ngram_prob = generate_ngram_probs()

@@ -1,4 +1,3 @@
-import nltk
 from nltk.corpus import brown
 from nltk import ngrams
 import string
@@ -11,9 +10,6 @@ from nltk.corpus import brown, gutenberg, webtext, reuters
 
 #justg do them allll
 
-
-
-
 #get all them probabilities
 def ngram_probs(n, text):
     ngram_counts = Counter(ngrams(text, n))
@@ -22,8 +18,6 @@ def ngram_probs(n, text):
     return ngram_probs
 
 def generate_ngram_probs():
-
-
     text = (
         brown.raw() +
         gutenberg.raw() +
