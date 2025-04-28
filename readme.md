@@ -18,6 +18,9 @@ This repository contains code for reproducing and analyzing cryptographic proper
 - **`equivocation_from_caesar_loop.py`**  
   Runs multiple trials using random English word-based messages and calculates the average equivocation as more ciphertext is observed.
 
+- **`equivocation_simple_substitution.py`**  
+  Simulates equivocation for a Simple Substitution Cipher by generating random keys and scoring decrypted text using n-gram statistics.
+
 ## Run the experiments:
     All the experiments can be run via the command line. Parameters are located as variables in the experiment files.
 
